@@ -156,12 +156,12 @@ a {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    padding: 8px 16px;
+    padding: 10px 15px;
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.08);
     color: var(--polo-gold);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.24em;
     text-transform: uppercase;
@@ -242,6 +242,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center center;
     display: block;
 }
 
@@ -254,6 +255,10 @@ a {
     bottom: 0;
     width: 250px;
     height: 260px;
+}
+
+.polo-image-card--secondary img {
+    object-position: 30% center;
 }
 
 .polo-floating-badge {
@@ -269,7 +274,7 @@ a {
 
 .polo-floating-badge span {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 800;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -466,7 +471,7 @@ a {
 }
 
 .polo-review-card strong {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--polo-text-muted);
@@ -726,6 +731,47 @@ a {
         url("../images/background/banner.jpg") center/cover no-repeat;
 }
 
+.polo-page-hero--about {
+    background:
+        linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
+        url("../images/background/testimonials.jpg") center/cover no-repeat;
+}
+
+.polo-page-hero--delivery {
+    background:
+        linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
+        url("../images/background/hero.jpg") center/cover no-repeat;
+}
+
+.polo-page-hero--collection {
+    background:
+        linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
+        url("../images/background/hero-five.jpg") center/cover no-repeat;
+}
+
+.polo-page-hero--faq {
+    background:
+        linear-gradient(90deg, rgba(8, 7, 6, 0.94) 0%, rgba(8, 7, 6, 0.76) 45%, rgba(8, 7, 6, 0.5) 100%),
+        url("../images/background/hero.jpg") center/cover no-repeat;
+}
+
+.polo-page-hero--location {
+    background:
+        linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
+        url("../images/background/hero.jpg") center/cover no-repeat;
+}
+
+.polo-page-hero--stuffed-crust {
+    background:
+        linear-gradient(90deg, rgba(8, 7, 6, 0.9) 0%, rgba(8, 7, 6, 0.68) 45%, rgba(8, 7, 6, 0.42) 100%),
+        url("../images/background/hero-three.png") center/cover no-repeat;
+}
+
+.polo-page-hero--gyro {
+    background:
+        linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
+        url("../images/background/hero-two.jpg") center/cover no-repeat;
+}
 .polo-page-hero__content h1 {
     font-size: clamp(2.8rem, 5.5vw, 5.2rem);
     line-height: 0.96;
@@ -754,7 +800,7 @@ a {
     color: var(--polo-gold);
     text-transform: uppercase;
     letter-spacing: 0.16em;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .polo-page-hero__card ul {
@@ -864,7 +910,7 @@ a {
 
 .polo-delivery-table th {
     color: var(--polo-gold);
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0.16em;
     text-transform: uppercase;
     font-weight: 800;
@@ -1023,12 +1069,13 @@ a {
 }
 
 .polo-bullet-item {
-    padding: 18px 18px;
+    padding: 10px 15px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.07);
     color: var(--polo-text);
-    line-height: 1.7;
+    font-size: 14px;
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -1117,7 +1164,7 @@ a {
     display: block;
     margin-bottom: 12px;
     color: var(--polo-gold);
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
 }
@@ -1189,3 +1236,66 @@ a {
         font-size: 24px;
     }
 }
+
+
+
+
+
+
+.polo-story-grid__image--why-main {
+    width: 100% !important;
+    height: 130% !important;
+    object-fit: cover !important;
+    object-position: 58% center !important;
+    display: block !important;
+}
+
+
+.polo-story-grid__image--about-food-main {
+    object-position: 30% center !important;
+}
+
+.polo-stuffed-crust-benefits-section .polo-bullet-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.polo-stuffed-crust-benefits-section .polo-bullet-item {
+    min-height: auto;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 575.98px) {
+    .polo-stuffed-crust-benefits-section .polo-bullet-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.polo-section p a,
+.polo-copy-stack a,
+.polo-intro-copy a,
+.polo-small-note a {
+    color: var(--polo-text-muted);
+}
+
+.polo-section p a:hover,
+.polo-copy-stack a:hover,
+.polo-intro-copy a:hover,
+.polo-small-note a:hover {
+    color: var(--polo-gold-strong);
+}
+
+
+.sub-title {
+    display: inline-flex !important;
+    align-items: center !important;
+    padding: 10px 15px !important;
+    font-size: 14px !important;
+    line-height: 1 !important;
+}
+
+
+
+
+
