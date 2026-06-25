@@ -148,7 +148,7 @@ a {
     padding: 220px 0 130px;
     background:
         linear-gradient(90deg, rgba(8, 7, 6, 0.9) 0%, rgba(8, 7, 6, 0.68) 45%, rgba(8, 7, 6, 0.35) 100%),
-        url("../images/background/hero-five.jpg") center/cover no-repeat;
+        url("https://polloranch.com/wp-content/uploads/2026/images/background/hero-five.jpg") center/cover no-repeat;
 }
 
 .polo-hero__content .sub-title,
@@ -728,49 +728,49 @@ a {
     padding: 210px 0 90px;
     background:
         linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
-        url("../images/background/banner.jpg") center/cover no-repeat;
+        url("https://polloranch.com/wp-content/uploads/2026/images/background/banner.jpg") center/cover no-repeat;
 }
 
 .polo-page-hero--about {
     background:
         linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
-        url("../images/background/testimonials.jpg") center/cover no-repeat;
+        url("https://polloranch.com/wp-content/uploads/2026/images/background/testimonials.jpg") center/cover no-repeat;
 }
 
 .polo-page-hero--delivery {
     background:
         linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
-        url("../images/background/hero.jpg") center/cover no-repeat;
+        url("https://polloranch.com/wp-content/uploads/2026/images/background/hero.jpg") center/cover no-repeat;
 }
 
 .polo-page-hero--collection {
     background:
         linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
-        url("../images/background/hero-five.jpg") center/cover no-repeat;
+        url("https://polloranch.com/wp-content/uploads/2026/images/background/hero-five.jpg") center/cover no-repeat;
 }
 
 .polo-page-hero--faq {
     background:
         linear-gradient(90deg, rgba(8, 7, 6, 0.94) 0%, rgba(8, 7, 6, 0.76) 45%, rgba(8, 7, 6, 0.5) 100%),
-        url("../images/background/hero.jpg") center/cover no-repeat;
+        url("https://polloranch.com/wp-content/uploads/2026/images/background/hero.jpg") center/cover no-repeat;
 }
 
 .polo-page-hero--location {
     background:
         linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
-        url("../images/background/hero.jpg") center/cover no-repeat;
+        url("https://polloranch.com/wp-content/uploads/2026/images/background/hero.jpg") center/cover no-repeat;
 }
 
 .polo-page-hero--stuffed-crust {
     background:
         linear-gradient(90deg, rgba(8, 7, 6, 0.9) 0%, rgba(8, 7, 6, 0.68) 45%, rgba(8, 7, 6, 0.42) 100%),
-        url("../images/background/hero-three.png") center/cover no-repeat;
+        url("https://polloranch.com/wp-content/uploads/2026/images/background/hero-three.png") center/cover no-repeat;
 }
 
 .polo-page-hero--gyro {
     background:
         linear-gradient(90deg, rgba(8, 7, 6, 0.92) 0%, rgba(8, 7, 6, 0.72) 45%, rgba(8, 7, 6, 0.45) 100%),
-        url("../images/background/hero-two.jpg") center/cover no-repeat;
+        url("https://polloranch.com/wp-content/uploads/2026/images/background/hero-two.jpg") center/cover no-repeat;
 }
 .polo-page-hero__content h1 {
     font-size: clamp(2.8rem, 5.5vw, 5.2rem);
